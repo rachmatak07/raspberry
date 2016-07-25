@@ -1,9 +1,0 @@
-Arch Arm Pi 3 - Time Zone
-
-https://github.com/ekapujiw2002/raspberry_pi_arch_linux_how_to/blob/master/ina/05-Set%20timezone.md
-
-Cek timezone yang disupport dgn perintah : ls –l /usr/share/zoneinfo
-Set ke WIB : ln –sf /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
-Untuk mengecek status waktu sistem pergunakan sistem : timedatectl
-Untuk melihat informasi timezone pergunakan : timedatectl list-timezones
-Untuk memperbarui zona waktu bisa juga mempergunakan : timedatectl set-timezone Zone/SubZone contoh timedatectl set-timezone Asia/Jakarta
